@@ -1,0 +1,6 @@
+##Project文件夹内的文件不更改 ##
+Project/*
+Project/Objects/*
+Project/Listings/*
+Project/DebugConfig/*
+!Project/*.c
