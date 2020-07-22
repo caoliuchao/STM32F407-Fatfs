@@ -35,7 +35,7 @@ int main(void)
     OS_ERR  err;
 
     // Configure the NVIC Preemption Priority Bits 
-	NVIC_PriorityGroupConfig (NVIC_PriorityGroup_4);
+	NVIC_PriorityGroupConfig (NVIC_PriorityGroup_1);
  
     CPU_IntDis();      /* Disable all interrupts.*/
 
